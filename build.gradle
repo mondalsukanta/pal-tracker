@@ -3,7 +3,7 @@ import org.flywaydb.gradle.task.FlywayMigrateTask
 // Following required to run flyway 5.2.1 plugin
 buildscript {
     dependencies {
-        classpath 'mysql:mysql-connector-java:8.0.19'
+        classpath 'mysql:mysql-connector-java:8.0.13'
     }
 }
 
