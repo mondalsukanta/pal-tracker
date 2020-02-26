@@ -47,7 +47,7 @@ flyway {
     url = developmentDbUrl
     user = "tracker"
     password = ""
-    locations = ["filesystem:databases/tracker/migration"]
+    locations = ["filesystem:databases/tracker/migrations"]
 }
 
 task testMigrate(type: FlywayMigrateTask) {
